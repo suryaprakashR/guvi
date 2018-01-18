@@ -12,7 +12,6 @@ if(lcase||ucase)
  printf(" %c it is vowel",c);
 else
  printf("%c is consonant",c);
- 
  return 0;
  }
  
