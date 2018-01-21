@@ -1,19 +1,23 @@
 #include <stdio.h>
 int main()
-{
-    double n1, n2, n3;
-
-    printf("Enter three different numbers: ");
-    scanf("%lf %lf %lf", &n1, &n2, &n3);
-
-    if( n1>=n2 && n1>=n3 )
-        printf("%.2f", n1);
-
-    if( n2>=n1 && n2>=n3 )
-        printf("%.2f", n2);
-
-    if( n3>=n1 && n3>=n2 )
-        printf("%.2f, n3);
-
-    return 0;
+{ int a, b, c;
+ printf("Please Enter three different values\n");
+ scanf("%d %d %d", &a, &b, &c);
+ if (a > b && a > c) 
+  {
+  printf("\n%d is Greater Than both %d and %d", a, b, c); 
+  }
+else if (b > a && b > c) 
+  {
+  printf("\n%d is Greater Than both %d and %d", b, a, c);
+  }
+ else if (c > a && c > b) 
+ {
+  printf("\n%d is Greater Than both %d and %d", c, a, b);
+  }
+ else 
+  {
+  printf("\nEither any two values or all the three values are equal");
+  } 
+return 0;
 }
