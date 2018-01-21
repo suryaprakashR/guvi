@@ -8,10 +8,10 @@ int main()
   scanf("%c", &ch);
  
   if ((ch >= 'a' && ch <= 'z') || (ch >= 'A' &&ch <= 'Z'))
-
-printf("alphapet");
-
-    else
+ 
+   printf("alphabet");
+ 
+   else
       printf("No");
       return 0;
   
