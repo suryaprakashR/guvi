@@ -1,14 +1,12 @@
 #include<stdio.h>
-int main()
+void main()
 {
-int num,mul;
-printf("enter the number\n");
-scanf("%d",&num);
-printf("multiplies are ");
-for(mul=1;mul<=25;mul++)
+int i,n,mul;
+printf("Enter the number");
+scanf("%d",&n);
+for(i=1;i<=n;i++)
 {
-if(imul%5==0)
-printf("%d\n",mul);
+mul=5*i;
+printf("%d\n",mul); 
 }
-return 0;
 }
