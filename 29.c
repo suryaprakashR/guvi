@@ -2,7 +2,7 @@
 int main()
 {
 	int min,hr=60,h,m;
-	printf("enter the minutes");
+	printf("enter minutes");
 	scanf("%d",&min);
 	if(min>hr)
 	{
