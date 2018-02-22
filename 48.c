@@ -1,8 +1,10 @@
 #include<stdio.h>
- void main()
+#include<conio.h>
+ int main()
 {
   int i,n,Sum=0,num;
   float Avg;
+  clrscr();
   printf("\nPlease Enter How many Number you want?\n");
   scanf("%d",&n);
   printf("\nPlease Enter the elements one by one\n");
