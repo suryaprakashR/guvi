@@ -1,15 +1,27 @@
 #include<stdio.h>
-int main()
+int main() 
 {
-	float c,a,b,i;
-	scanf("%f%f",&a,&b);
+	int a,b,c,i,flag=0;
+	printf("enter the two number:");
+	scanf("%d %d",&a,&b);
 	c=a*b;
-	printf("\t\t%f",c);
-	i=sqrt(c);
-	printf("\t\t%f",i);
-	if(a==sqrt(c)&&b==sqrt(c))
-		printf("\nyes");
-		else
-		printf("\nno");
-return 0;
+	for(i=1;i<=c/2;i++)
+	{
+		if(i*i==c)
+		{
+			flag=1;
+			break;
+		}
+	
+	}
+	
+	if(flag==1)
+	{
+		printf("\nYes");
+	}
+	else
+	{
+		printf("\nNo");
+	}
+	return 0;
 }
